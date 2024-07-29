@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: visible; /* 显示滚动条 */           
+    height: auto; /* 确保背景覆盖整个视口 */
+    display: flex;
+    flex-direction: column; /* 使内容垂直排列 */
+    justify-content: flex-start; /* 从顶部开始对齐内容 */
+    align-items: center; /* 水平居中对齐内容 */
+    background: linear-gradient(to bottom, #7b7b7b, #ffffff); /* 渐变色背景 */
+    color: #fff; /* 文字颜色 */
+    font-family: Arial, sans-serif; /* 字体 */
+    box-sizing: border-box; /* 确保 padding 和 border 不影响元素的总宽度 */
+    padding: 20px; /* 给页面内容添加内边距 */
+}
+
+video {
+    width: 100%; /* 视频宽度适应视口宽度 */
+    max-width: 800px; /* 设置最大宽度以保持视频清晰 */
+    height: auto; /* 高度自动调整以保持视频比例 */
+    border-radius: 10px; /* 添加圆角效果 */
+    margin-bottom: 20px; /* 视频和文本之间的间距 */
+}
+
+h1 {
+    font-size: xx-large;
+    color: #000; /* 设置文本颜色为黑色，以确保在渐变背景上可读 */
+    margin: 0; /* 移除默认外边距 */
+    text-align: center; /* 文本居中对齐 */
+}

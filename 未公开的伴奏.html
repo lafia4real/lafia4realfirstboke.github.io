@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>未公开的伴奏</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* 确保背景覆盖整个视口 */
+            display: flex;
+            flex-direction: column; /* 垂直排列内容 */
+            align-items: center; /* 水平居中对齐内容 */
+            background: linear-gradient(to bottom, #7b7b7b, #ffffff); /* 渐变色背景 */
+            color: #fff; /* 文字颜色 */
+            font-family: Arial, sans-serif; /* 字体 */
+            box-sizing: border-box; /* 确保 padding 和 border 不影响元素的总宽度 */
+            padding: 20px; /* 给页面内容添加内边距 */
+        }
+
+        .audio-container {
+            width: 100%; /* 容器宽度适应视口宽度 */
+            max-width: 800px; /* 最大宽度限制 */
+            margin-bottom: 20px; /* 音频容器和标题之间的间距 */
+        }
+
+        audio {
+            width: 100%; /* 音频播放器宽度适应容器宽度 */
+            border-radius: 10px; /* 添加圆角效果 */
+        }
+
+        h1 {
+            font-size: xx-large;
+            color: #000; /* 设置文本颜色为黑色，以确保在渐变背景上可读 */
+            margin: 0; /* 移除默认外边距 */
+            text-align: center; /* 文本居中对齐 */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>未公开的伴奏</h1>
+    </div> 
+    <div class="audio-container">
+        <audio controls>
+            <source src="本地音频.mp3" type="audio/mpeg"> <!-- 替换为你音频文件的路径 -->
+            您的浏览器不支持音频标签。
+        </audio>
+    </div>  
+</body>
+</html>
